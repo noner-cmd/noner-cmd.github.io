@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UP主页面</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            color: #333;
+        }
+
+        header {
+            background: #556b2f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #556b2f;
+        }
+
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info ul li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info ul li a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .contact-info ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .about-me {
+            display: flex;
+            align-items: center;
+        }
+
+        .about-me img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .recent-videos .video {
+            margin-bottom: 20px;
+            position: relative;
+            transition: transform 0.3s;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            background: #f9f9f9;
+        }
+
+        .recent-videos .video:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recent-videos .video img {
+            width: 100%;
+            height: auto;
+        }
+
+        .recent-videos .video h3 {
+            margin: 10px 20px;
+            color: #333;
+        }
+
+        .recent-videos .video p {
+            margin: 0 20px 20px;
+            color: #666;
+        }
+
+        footer {
+            background: #556b2f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到UP主空间</h1>
+    </header>
+    <section class="about-me">
+        <img src="https://via.placeholder.com/150" alt="占位图">
+        <div>
+            <h2>关于我</h2>
+            <p>这里是关于UP主的自我介绍，可以填写一些个人信息和兴趣爱好。</p>
+        </div>
+    </section>
+    <section class="contact-info">
+        <h2>联系方式</h2>
+        <ul>
+            <li>QQ群: <a target="_blank" href="https://jq.qq.com/?_wv=1027&k=635364242">点击加入QQ群</a></li>
+            <li>B站号: <a href="https://space.bilibili.com/636691616">访问B站主页</a></li>
+        </ul>
+    </section>
+    <section class="recent-videos">
+        <h2>近期视频</h2>
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="视频缩略图">
+            <h3>视频标题1</h3>
+            <p>视频简介1...</p>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="视频缩略图">
+            <h3>视频标题2</h3>
+            <p>视频简介2...</p>
+        </div>
+        <div class="video">
+            <img src="https://via.placeholder.com/300x200" alt="视频缩略图">
+            <h3>视频标题3</h3>
+            <p>视频简介3...</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 我的UP主空间</p>
+    </footer>
+</body>
+</html>
